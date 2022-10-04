@@ -1,0 +1,76 @@
+
+h1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 4em;
+    text-align:justify;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.4em;
+  }
+  
+  #counter {
+    font-size: 1.3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid maroon;
+    background-color: rgb(230, 129, 129);
+    padding: 1%;
+    justify-content:space-evenly ;
+  }
+  
+  button {
+    background-color: rgb(255, 59, 10);
+    width : 15%;
+    border: 2px maroon solid;
+    border-radius: 30px;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+  button:hover {
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px 5px rgb(221, 12, 12);
+  }
+  
+  #game {
+    text-align: center;
+  }
+  
+  #game div {
+    border: 1px solid black;
+    display: inline-flex;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(221, 194, 169);
+    margin: 10px 40px;
+    box-shadow: 2px 2px gray;
+    border: 2px solid black;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 500ms;
+  }
+  body {
+    background-color: blanchedalmond;
+    margin: 0% 15% 10% 15%;
+  }
+  
+  h2 {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 5em;
+    color:rgb(228, 72, 15);
+    text-decoration: underline;
+    text-shadow: 5px 5px gray;
+  }
+  
+  #game div:hover {
+    box-shadow: inset 0px 0px 0px 2px rgb(49, 33, 33);
+  }
