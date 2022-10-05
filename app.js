@@ -117,7 +117,7 @@ function handleCardClick(event) {
         card1 = null;
         card2 = null;
         noClicking = false;
-      }, 1000);
+      }, 500);
     }
 
   }
@@ -136,6 +136,8 @@ startBtn.addEventListener('click', function(){
   noClicking = false;
   cardsFlipped = 0;
   clickCounter = 0;
+  moveCounter.innerText = `Clicks: ${clickCounter}, Matches found: ${cardsFlipped/2}`;
+  shuffledColors = shuffle(COLORS);
   createDivsForColors(shuffledColors);
 });
 // when the DOM loads
