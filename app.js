@@ -117,7 +117,7 @@ function handleCardClick(event) {
         card1 = null;
         card2 = null;
         noClicking = false;
-      }, 500);
+      }, 1000);
     }
 
   }
